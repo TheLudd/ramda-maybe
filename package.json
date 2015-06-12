@@ -1,0 +1,20 @@
+{
+  "name": "ramda-maybe",
+  "version": "0.0.1",
+  "description": "Wrapping all Ramda functions that may return undefined in a Maybe",
+  "main": "index.js",
+  "dependencies": {
+    "ramda": "^0.14.0",
+    "ramda-fantasy": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "jshint index.js test && mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
