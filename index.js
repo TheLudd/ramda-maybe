@@ -11,6 +11,7 @@ var hazards = [
  'findLast',
  'head',
  'last',
+ 'match',
  'nth',
  'path',
  'prop'
