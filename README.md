@@ -1,6 +1,6 @@
 # ramda-maybe
 
-Wrapping [ramda](https://github.com/ramda/ramda) functions that might return `undefned` in a `Maybe`. The implementation of `Maybe` is provied by [ramda-fantasy](https://github.com/ramda/ramda-fantasy). All other ramda functions are left unchanged.
+Wrapping [ramda](https://github.com/ramda/ramda) functions that might return `undefined` in a `Maybe`. The implementation of `Maybe` is provided by [ramda-fantasy](https://github.com/ramda/ramda-fantasy). All other ramda functions are left unchanged.
 
 ## usage
 ```
