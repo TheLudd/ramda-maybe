@@ -1,10 +1,10 @@
 {
   "name": "ramda-maybe",
-  "version": "0.0.1",
+  "version": "0.13.0",
   "description": "Wrapping all Ramda functions that may return undefined in a Maybe",
   "main": "index.js",
   "dependencies": {
-    "ramda": "^0.14.0",
+    "ramda": "^0.13.0",
     "ramda-fantasy": "^0.2.0"
   },
   "devDependencies": {
