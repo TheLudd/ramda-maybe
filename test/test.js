@@ -11,7 +11,7 @@ describe('ramda maybe', function() {
     var m;
 
     beforeEach(function() {
-      m = R.find(R.eq(2), numbers);
+      m = R.find(R.identical(2), numbers);
     });
 
     it('returns maybe objects for specified functions', function() {
@@ -24,7 +24,7 @@ describe('ramda maybe', function() {
     });
 
     it('is curried', function() {
-      var find2 = R.find(R.eq(2));
+      var find2 = R.find(R.identical(2));
       var m2 = find2(numbers);
       m2.equals(m).should.equal(true);
     });
